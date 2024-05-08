@@ -190,6 +190,7 @@ class DownloadsConfig:
     # A value that is too high for your bandwidth may cause slowdowns
     max_connections: int
     requests_per_minute: int
+    proxy: str
 
 
 @dataclass(slots=True)
